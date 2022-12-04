@@ -1,0 +1,166 @@
+ /* sobre Mi */ 
+section{
+    margin-bottom: 25px;
+}
+ #aboutme{
+    margin-top: 30px;
+}
+.box2{
+    display: flex;
+
+}
+.sobremi{
+    margin: 3px;
+    padding-left: 5px;
+    border-left: solid 3px;
+    border-image: linear-gradient(to bottom, #000000, #ffffff00) 1 99%;
+    width: 70%;
+    
+}
+.titulosobremi{
+    color: blue;
+    
+}
+
+/* hobbie */
+
+
+.hobbies{
+    margin-left: 29px;
+}
+
+.control{
+    color: rgb(0, 255, 0);
+    transition: ease-in .5s;
+    animation: shake 0.5s infinite;
+
+}
+@keyframes shake {
+    0%{transform: translate(1px, 1px) rotate(0deg);}
+    20%{transform: translate(-3px - 0px) rotate(1deg);}
+    40%{transform: translate(1px, -1px) rotate(0deg);}
+    60%{transform: translate(-3px, 2px) rotate(1deg);}
+    80%{transform: translate(-1px, -1px) rotate(0deg);}
+    100%{transform: translate(1px, -2px) rotate(-1deg);}
+}
+.nota{
+    color: #00f0dc;
+    transition: ease-in .5s;
+    animation: opac 1s infinite;
+}
+@keyframes opac {
+    0%{
+        opacity: 0;
+    }
+    
+    50%{
+        opacity: .50;
+        color: hotpink;
+
+    }
+    75%{
+        color: rgb(48, 15, 236);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.avion{
+    color: #bdbdbd;
+    transition: ease-in .5s;
+    animation: despege 3s linear infinite;  
+    
+}
+@keyframes despege {
+    0%{
+        transform: translate(0, 0)rotate(-45deg);
+    }
+    100%{
+        transform: translate(-20px, -20px);
+    }
+    
+}
+.martillo{
+    transform: rotate(45deg);
+} 
+.martillo{
+    color: #fc0000;
+    transition: ease-in .5s;
+    animation: martillo 1s infinite;
+}
+@keyframes martillo {
+    0%{
+        transform: rotate(50deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+    
+}
+.foco{
+   color:  #fffb00;
+    transition: ease-in .3s;
+    animation: foco 1s infinite;
+}
+@keyframes foco {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.25);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+.pieza{
+    color: hotpink;
+    transition: ease-in .4;
+    animation: pulze 3s infinite;
+    transform: rotate(30deg);
+}
+@keyframes pulze {
+    0%{
+        opacity: .50;
+    }
+    
+    50%{
+        opacity: 0;
+        color: hotpink;
+    }
+    75%{
+        color: hotpink;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.photo1{
+    display: block;
+    max-width: 80%;
+    border: black solid 2px;
+    margin: auto ;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+.photo2{
+    display: block;
+    max-width: 110%;
+    border: black solid 2px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.photo1:hover{
+    transform: scale(1.10);
+}
+.photo2:hover{
+    transform: scale(1.10);
+}
