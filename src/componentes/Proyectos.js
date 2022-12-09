@@ -1,10 +1,12 @@
 import React from "react";
 import Fadeco from "../componentes/img/fadeco.png";
+import Pokedex from "../componentes/img/pokedex.png";
 import Lemon from "../componentes/img/lemon.png";
 import Uala from "../componentes/img/uala.png";
 import Paypal from "../componentes/img/Paypal.jpg";
 import "./Proyecto.css";
 import Pro1 from "./proyectos/fadeco.rar"
+import pokerar from "./proyectos/pokedex.rar"
 
 export function Proyecto() {
   return (
@@ -29,11 +31,12 @@ export function Proyecto() {
             <a href= {Pro1} >Download</a>
           </div>
           <div className="col-sm proyect-2">
-            <h4>Calculadora</h4>
-            <p> Calculadora con JavaScrit</p>
-            <div className="calculadora-img">
-              <img src="#!" alt="#" />
+            <h4>Pokedex</h4>
+            <p> Una simple pokedex echa con javascript css y html</p>
+            <div className="pokedex-img">
+              <img src={Pokedex} alt="#" />
             </div>
+            <a href= {pokerar} >Download</a>
           </div>
         
 
