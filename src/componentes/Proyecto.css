@@ -20,7 +20,7 @@
     box-shadow: 6px 6px 11px -1px rgba(0,0,0,0.75);
     border: 4px solid #253a93;
     width: 33%;
-    margin: 25px;
+    margin: 20px;
 }
 
 .proyect-1 img:hover{
@@ -35,13 +35,29 @@
     color: #ececec;
     border: solid 4px rgb(184, 98, 244);
     background: linear-gradient(236deg, rgba(0,0,0,1) 31%, rgba(84,0,117,1) 50%, rgba(0,0,0,1) 72%);
+    margin: 20px;
 }
 .proyect-2 img{
   width: 90%;
 }
 .proyect-2 img:hover{
     transform: scale(1.1);
+ 
+}
 
+.proyect-3{
+    width: 33%;
+    color: #ececec;
+    border: solid 4px rgba(139, 255, 184, 0.126);
+    box-shadow: 6px 6px 11px -1px rgba(0,0,0,0.75);
+    background: linear-gradient(236deg, rgba(255,252,0,1) 0%, rgba(33,25,255,1) 20%, rgba(194,194,195,1) 100%);
+    margin: 20px;
+}
+.proyect-3 img{
+    width: 65%;
+}
+.proyect-3 img:hover{
+      transform: scale(1.1);
 }
 
 

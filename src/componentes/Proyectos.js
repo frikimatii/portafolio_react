@@ -1,12 +1,17 @@
 import React from "react";
 import Fadeco from "../componentes/img/fadeco.png";
 import Pokedex from "../componentes/img/pokedex.png";
+import imgCLima from "../componentes/img/appclima.png"
+
 import Lemon from "../componentes/img/lemon.png";
 import Uala from "../componentes/img/uala.png";
 import Paypal from "../componentes/img/Paypal.jpg";
+
 import "./Proyecto.css";
+
 import Pro1 from "./proyectos/fadeco.rar"
 import pokerar from "./proyectos/pokedex.rar"
+import appClima from "./proyectos/appClima.rar"
 
 export function Proyecto() {
   return (
@@ -37,6 +42,14 @@ export function Proyecto() {
               <img src={Pokedex} alt="#" />
             </div>
             <a href= {pokerar} >Download</a>
+          </div>
+          <div className="col-sm proyect-3">
+            <h4> AppClima </h4>
+            <p  className="fs-6"> es un simple pronostico del timepo lo voy a ir mejorando de apoco</p>
+            <div className="app-img">
+              <img src={ imgCLima } alt="#" />
+            </div>
+            <a href={ appClima } >Download</a>
           </div>
         
 
