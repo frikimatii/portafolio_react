@@ -2,6 +2,7 @@ import React from "react";
 import Fadeco from "../componentes/img/fadeco.png";
 import Pokedex from "../componentes/img/pokedex.png";
 import imgCLima from "../componentes/img/appclima.png"
+import pass from "../componentes/img/genPass.png"
 
 import Lemon from "../componentes/img/lemon.png";
 import Uala from "../componentes/img/uala.png";
@@ -12,15 +13,15 @@ import "./Proyecto.css";
 import Pro1 from "./proyectos/fadeco.rar"
 import pokerar from "./proyectos/pokedex.rar"
 import appClima from "./proyectos/appClima.rar"
+import genertePassword from "./proyectos/generatePass.rar"
 
 export function Proyecto() {
   return (
     <div className="container-fluid" id="proyecto">
       <h4 className="titulo-proyecto"> Proyecto</h4>
       <p className="font-monospace fw-bold">
-        {" "}
         Dejo ALgunos de mi Proyectos para q revicen mi codigo tu opinion ME
-        SIRVE{" "}
+        SIRVE
       </p>
       <div className="container-fluid text-center">
         <div className="row">
@@ -50,6 +51,15 @@ export function Proyecto() {
               <img src={ imgCLima } alt="#" />
             </div>
             <a href={ appClima } >Download</a>
+          </div>
+          <div className="col-sm proyect-4">
+            <h4> Generate Password </h4>
+            <p  className="fs-6">Dejo un simmple generador de Password con Mayus NUms Y SYmbolos
+          </p>
+            <div className="app-img">
+              <img src={ pass } alt="#" />
+            </div>
+            <a href={ genertePassword } >Download</a>
           </div>
         
 

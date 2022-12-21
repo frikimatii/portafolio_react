@@ -59,7 +59,21 @@
 .proyect-3 img:hover{
       transform: scale(1.1);
 }
-
+.proyect-4{
+    width: 33%;
+    color: #ececec;
+    border: solid 4px rgba(1, 207, 248, 0.248);
+    box-shadow: 6px 6px 11px -1px rgba(0,0,0,0.75);
+    background: rgb(0,185,255);
+background: linear-gradient(126deg, rgba(0,185,255,1) 22%, rgba(0,0,0,1) 100%);
+    margin: 20px;
+}
+.proyect-4 img{
+    width: 65%;
+}
+.proyect-4 img:hover{
+      transform: scale(1.1);
+}
 
 
 /* ////////////// donaciones ///////// */ 
